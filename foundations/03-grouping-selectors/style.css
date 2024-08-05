@@ -1,0 +1,15 @@
+.color,
+.other {
+    font-size: 28px;
+    font-family: 'helvetica', 'Times New Roman', 'sans-serif';
+}
+
+.color {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.other {
+    background-color: yellow;
+}
