@@ -25,17 +25,9 @@ body {
   height: 48px;
 }
 
-#left-items {
+#left-items, #right-items {
   display: flex;
   gap: 16px;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-#right-items {
-  display: flex;
-  gap: 16px;
-  justify-content: flex-end;
   align-items: center;
 }
 
