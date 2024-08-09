@@ -28,11 +28,15 @@ body {
 #left-items {
   display: flex;
   gap: 16px;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #right-items {
   display: flex;
   gap: 16px;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .logo {
