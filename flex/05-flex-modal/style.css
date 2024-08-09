@@ -18,11 +18,15 @@ body {
 .flex-container {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+ 
+
 }
 
-#top{
+.top{
   display: flex;
   justify-content: space-between;
+  
 }
 
 .modal {
@@ -47,6 +51,11 @@ body {
   align-items: center;
   justify-content: center;
   flex: 0 0 auto;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .close-button {
